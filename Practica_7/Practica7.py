@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 #Cargar datos
-df = pd.read_csv("/Users/gloria/Desktop/TAREAS FACU/7mo Semestre/Mineria de datos /Practicas/Practica_2/data_limpia.csv")
+df = pd.read_csv("/Users/gloria/Desktop/TAREAS FACU/7mo Semestre/Mineria de datos /Practicas/Practica_7/data_limpia.csv")
 
 #Usar dos columnas numéricas para agrupar
 X = df[["Sueldo Neto", "mes"]]
